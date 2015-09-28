@@ -28,6 +28,12 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+        'request'=>[
+            'baseUrl'=>'',
+        ],
+        'urlManager'=>[
+            'scriptUrl'=>'/index.php',
+		],
     ],
     'params' => $params,
 ];
