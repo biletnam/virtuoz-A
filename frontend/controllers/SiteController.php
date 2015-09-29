@@ -139,6 +139,7 @@ class SiteController extends Controller
     public function actionAbout()
     {
         return $this->render('about');
+		echo Yii::app()->request->userHostAddress;
     }
 
     /**

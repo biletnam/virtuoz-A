@@ -29,6 +29,14 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+        'request'=>[
+            'baseUrl'=>'/backend',
+        ],
+        'urlManager'=>[
+            'scriptUrl'=>'/backend/index.php',
+			'enablePrettyUrl' => true,
+			'showScriptName' => false,
+		],
     ],
     'params' => $params,
 ];
